@@ -6,25 +6,52 @@
 
 body{
     margin: 0;
-    background-color: pink;
+    background-color: #f5d6ae;
     justify-content: center;
     text-align: center;
     align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.contenedor{
-    margin: 50px 350px;
-    background-color: rgb(242, 242, 242);
-    color: blueviolet;
-    border-radius: 20px;
+.card{
+    width: 500px;
+    margin: auto;
+    margin-top: 40px;
 }
 
 .input{
-    margin-top: 50px;
-    width: 560px;
+    margin: 50px 0 50px 0;
+    padding: 30px;
+    width: 100%;
     height: 70px;
     border: none;
-    background-color: rgb(238, 238, 238);
     border-radius: 20px;
     font-size: 40px;
+}
+
+.contenedor{
+    padding: 10px;
+    background-color: rgb(242, 242, 242);
+    border-radius: 20px;
+}
+
+.titulo{
+    color: #f09012;
+    padding: 0 0 15px 10px;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.subcard{
+    width: 33%;
+    display: inline-block;
+}
+
+.subtitulo{
+    color: #f09012;
+    padding: 0 0 10px 10px;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: left;
 }
