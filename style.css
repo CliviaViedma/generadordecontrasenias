@@ -6,52 +6,58 @@
 
 body{
     margin: 0;
-    background-color: #f5d6ae;
+    background-color: #d1c2e5;
     justify-content: center;
     text-align: center;
-    align-items: center;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    align-items: center;   
 }
+
 
 .card{
-    width: 500px;
-    margin: auto;
-    margin-top: 40px;
-}
-
-.input{
-    margin: 50px 0 50px 0;
-    padding: 30px;
-    width: 100%;
-    height: 70px;
-    border: none;
-    border-radius: 20px;
-    font-size: 40px;
+    margin-top: 150px;
 }
 
 .contenedor{
-    padding: 10px;
-    background-color: rgb(242, 242, 242);
+    background-color: white;
     border-radius: 20px;
+    padding: 0px 15px;
+    width: 400px;
+    height: 200px;
+    margin: auto;
 }
 
-.titulo{
-    color: #f09012;
-    padding: 0 0 15px 10px;
-    font-size: 30px;
-    font-weight: 500;
+.input{
+    border: none;
+    border-radius: 20px;
+    font-size: 40px;
+    width: 430px;
+    height: 60px;
+}
+
+.box {
+    height: 100px;
+    display: inline;
+    border: none;
     text-align: left;
 }
 
+.titulo{
+    color: #4d6c19;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+}
+
 .subcard{
-    width: 33%;
     display: inline-block;
 }
 
 .subtitulo{
-    color: #f09012;
-    padding: 0 0 10px 10px;
+    color: #4d6c19;
     font-size: 20px;
-    font-weight: 300;
     text-align: left;
+}
+
+.input{
+    margin-top: 5px;
 }

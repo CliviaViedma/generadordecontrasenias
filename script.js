@@ -22,13 +22,15 @@ form.classList.add("form");
 const unaFuncion = (tipoInput, items, key) => {
 
     const fieldset = document.createElement('fieldset');
+    fieldset.classList.add ("box");
 
     for(const elem of items) {
+    
         const label = document.createElement("label")
+        label.classList.add("label")
         label.setAttribute ("for", `check-${elem}`)
         label.textContent = `${elem}`
-        label.classList.add("label")
-    
+      
         const input = document.createElement('input')
         input.setAttribute("type", tipoInput)       
         input.setAttribute("id", `check-${elem}`)
@@ -45,8 +47,7 @@ const unaFuncion = (tipoInput, items, key) => {
         contenedor.appendChild(label)
 
         fieldset.appendChild(contenedor)
-     
-    }
+     }
 
     form.appendChild(fieldset);
 }
@@ -62,3 +63,7 @@ unaFuncion('checkbox', caracteres, 'chars')
 //subtitulo para cADA BLOQUE
 //disabel
 //llamar la funcion generar contraseña en el input
+// refresh
+// copiar
+
+
