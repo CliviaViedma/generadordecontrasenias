@@ -17,12 +17,12 @@ body{
     margin-top: 150px;
 }
 
-.contenedor{
+.container{
     background-color: white;
     border-radius: 20px;
     padding: 0px 15px;
     width: 400px;
-    height: 200px;
+    height: 250px;
     margin: auto;
 }
 
@@ -32,16 +32,18 @@ body{
     font-size: 40px;
     width: 430px;
     height: 60px;
+    margin-top: 5px;
 }
 
 .box {
     height: 100px;
+    padding:10px;
     display: inline;
     border: none;
     text-align: left;
 }
 
-.titulo{
+.title{
     color: #4d6c19;
     font-size: 30px;
     text-align: center;
@@ -52,12 +54,73 @@ body{
     display: inline-block;
 }
 
-.subtitulo{
+.subtitle{
     color: #4d6c19;
     font-size: 20px;
-    text-align: left;
+
 }
 
-.input{
-    margin-top: 5px;
+
+/*RESPONSIVE*/
+
+/*@media (min-width:1025px) and (max-width:1236px)
+@media (min-width:769px) and (max-width:1024px)
+@media (min-width:481px) and (max-width:768px)*/
+
+@media (min-width:320px) and (max-width:480px){
+
+    .card{
+        margin-top: 50px;
+    }
+
+    .container{
+        width: 250px;
+        height: 400px;
+        text-align: left;
+        margin-bottom: 50px;
+    }
+
+    .box{
+        height: 60px;
+    }
+
+    .input{
+        width: 280px;
+    }
+
+   .form{
+       width: 200px;
+   }
+}
+
+@media (max-width:319px){
+
+    .card{
+        margin-top: 60px;
+    }
+
+    .container{
+        width: 150px;
+        height: 350px;
+        text-align: left;
+    }
+
+    .box{
+        height: 60px;
+    }
+
+    .input{
+        width: 180px;
+    }
+
+    .title{
+        font-size: 20px;
+    }
+
+   .form{
+       width: 150px;
+       font-size: 12px;
+   }
+
+   
 }
