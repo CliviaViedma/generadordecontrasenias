@@ -2,52 +2,64 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    
 }
 
 body{
     margin: 0;
-    background-color: #d1c2e5;
     justify-content: center;
     text-align: center;
     align-items: center;   
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(to bottom, rgb(211, 177, 250), rgb(235, 215, 252));
+    
 }
 
 
 .card{
     margin-top: 150px;
+   margin-bottom: 200px;
+
 }
 
 .container{
     background-color: white;
     border-radius: 20px;
     padding: 0px 15px;
-    width: 400px;
-    height: 250px;
+    width: 420px;
+    height: 240px;
     margin: auto;
+    box-shadow: 1px 1px 20px 1px rgb(180, 161, 194);
+    
 }
 
 .input{
     border: none;
     border-radius: 20px;
-    font-size: 40px;
-    width: 430px;
+    font-size: 20px;
+    width: 450px;
     height: 60px;
     margin-top: 5px;
+    box-shadow: 1px 1px 20px 1px rgb(180, 161, 194);
 }
 
 .box {
+    
     height: 100px;
     padding:10px;
+    font-size: 13px;
     display: inline;
     border: none;
     text-align: left;
+    font-weight:500;
 }
 
 .title{
     color: #4d6c19;
-    font-size: 30px;
+    font-size: 27px;
     text-align: center;
     padding-top: 20px;
+    font-weight: bolder;
 }
 
 .subcard{
@@ -56,7 +68,7 @@ body{
 
 .subtitle{
     color: #4d6c19;
-    font-size: 20px;
+    font-size: 16px;
 
 }
 
