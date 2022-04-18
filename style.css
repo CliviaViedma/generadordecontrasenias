@@ -2,7 +2,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
 }
 
 body{
@@ -11,15 +10,12 @@ body{
     text-align: center;
     align-items: center;   
     font-family: 'Montserrat', sans-serif;
-    background: linear-gradient(to bottom, rgb(211, 177, 250), rgb(235, 215, 252));
-    
+    background: linear-gradient(to bottom, rgb(211, 177, 250), rgb(235, 215, 252));    
 }
-
 
 .card{
     margin-top: 150px;
    margin-bottom: 200px;
-
 }
 
 .container{
@@ -30,7 +26,6 @@ body{
     height: 240px;
     margin: auto;
     box-shadow: 1px 1px 20px 1px rgb(180, 161, 194);
-    
 }
 
 .input{
@@ -69,15 +64,7 @@ body{
 .subtitle{
     color: #4d6c19;
     font-size: 16px;
-
 }
-
-
-/*RESPONSIVE*/
-
-/*@media (min-width:1025px) and (max-width:1236px)
-@media (min-width:769px) and (max-width:1024px)
-@media (min-width:481px) and (max-width:768px)*/
 
 @media (min-width:320px) and (max-width:480px){
 
@@ -87,13 +74,12 @@ body{
 
     .container{
         width: 250px;
-        height: 400px;
+        height: 500px;
         text-align: left;
-        margin-bottom: 50px;
     }
 
     .box{
-        height: 60px;
+        height: 90px;
     }
 
     .input{
@@ -112,17 +98,17 @@ body{
     }
 
     .container{
-        width: 150px;
-        height: 350px;
+        width: 200px;
+        height: 500px;
         text-align: left;
     }
 
     .box{
-        height: 60px;
+        height: 100px;
     }
 
     .input{
-        width: 180px;
+        width: 230px;
     }
 
     .title{
@@ -130,9 +116,7 @@ body{
     }
 
    .form{
-       width: 150px;
+       width: 200px;
        font-size: 12px;
-   }
-
-   
+   }   
 }
